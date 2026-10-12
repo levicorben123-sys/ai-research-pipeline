@@ -7,6 +7,8 @@ for a futures trading bot (MNQ, paper-only research).
 Built with [Claude Code](https://claude.com/claude-code) as the coding agent; I directed the project and
 made the decisions.
 
+**Status (Oct 2026): shelved Oct 7** before the strategy spec reached a backtest. Kept here as a working example of the LLM pipeline, not as a trading result.
+
 ## Pipeline
 1. **Fetch** — `research/fetch_transcripts.py` downloads transcripts for a channel's videos
    (resumable, stops cleanly if rate-limited).
